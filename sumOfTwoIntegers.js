@@ -1,4 +1,4 @@
-const getSum = (a, b) => {
+const sumOfTwoIntegers = (a, b) => {
   while (b != 0) {
     let carry = a & b;
     a = a ^ b;
